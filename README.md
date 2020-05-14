@@ -1,71 +1,42 @@
-# Tool-X
+# Facebash v1.0
+## Author: github.com/thelinuxchoice
+## IG: @thelinuxchoice
+Facebook Brute Forcer in shellscript using TOR
 
-[![Build Status](https://img.shields.io/github/forks/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
-[![Build Status](https://img.shields.io/github/stars/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
-[![License](https://img.shields.io/github/license/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
-[![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#Tool-X)
+## Legal disclaimer:
+Usage of Facebash for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
 
-------------------------------------------------------------------------
+### WARNING:
+```
+Facebook blocks account for 1 hour after 20 wrong passwords, so this script can perform only 20 pass/h.
+```
 
-### Introduction
+![facebash](https://user-images.githubusercontent.com/34893261/37884926-d3f1df94-3088-11e8-98c3-1513f22e627c.png)
 
-*Tool-X is a Kali Linux hacking tools installer for Termux and linux system.*
-Tool-X was developed for Termux and other android terminals. Using Tool-X, you can install almost 370+ hacking tools in Termux (android) and other Linux based distributions. Now Tool-X is available for Ubuntu, Debian etc.
+### Features
 
-<br>
-<p align="center">
-<img width="53%" src="core/toolx.png"/>
-<img width="38%" src="core/toolx_cat.png"/>
-</p>
+- Save/Resume sessions
+- Anonymous attack through TOR
+- Default Password List (+39k)
 
-------------------------------------------------------------------------
 
-### Operating System Requirements
+### Usage:
 
-Tool-X works on any of the following operating systems:<br>
-• **Android** (Using the Termux App) <br>
-• **Linux** (Debian Based Systems) <br>
+```
+git clone https://github.com/thelinuxchoice/facebash
+cd instashell
+chmod +x facebash.sh
+service tor start
+sudo ./facebash.sh
+```
 
-------------------------------------------------------------------------
+### Install requirements (Curl, Tor):
 
-### How to Install
+```
+chmod +x install.sh
+sudo ./install.sh
+```
+### Donate!
+Support the authors:
 
-Open the terminal and type following commands.
-
-* `apt update`
-
-* `apt install git`
-
-* `git clone https://github.com/rajkumardusad/Tool-X.git`
-
-* `cd Tool-X`
-
-* `chmod +x install.aex`
-
-* `sh install.aex` if not work than use `./install.aex`
-
-------------------------------------------------------------------------
-
-### How to Use ?
-
-Enter a Number for a specific output:
-- (0) : To install all tools.
-- (1) : To show all available tools and type the number of a tool which you want to install.
-- (2) : To show tools category.
-- (3) : For the install of the operating system in Termux
-- (4) : If you want to update Tool-X.
-- (5) : If you want to know About Us.
-- (x) : To exit the tool.
-
-<br/>
-
-***Now Tool-X is installed successfully. To run Tool-X Type `Tool-X` or `toolx` in your terminal.***
-
-Type `Tool-X` or `toolx` from anywhere in your terminal to open Tool-X.
-
-------------------------------------------------------------------------
-
-**Warning**
-
-use this tool at your own risk!
-
+<noscript><a href="https://liberapay.com/thelinuxchoice/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
